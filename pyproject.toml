@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "state-estimation-filters"
+version = "0.1.0"
+description = "Linear Kalman Filter and Gauss-Helmert Model for state estimation and geodetic adjustment."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Amr Fawzy"}]
+keywords = ["kalman-filter", "gauss-helmert", "state-estimation", "least-squares", "geodesy"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.9",
+    "matplotlib>=3.5",
+]
+
+[project.urls]
+Repository = "https://github.com/AmrFawzy-NavEng/State-Estimation-Filters-Python"
